@@ -1,0 +1,222 @@
+html{
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+
+}
+
+body {
+  color: white; 
+}
+.navtext {
+  margin-bottom: 140px;
+}
+section .sectext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  /* font-weight: 900; */
+  font-family: "Poppins", sans-serif;
+}
+section .sectext2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.formcontainer {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+.formcontainer .btncontain button {
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  margin: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(255, 219, 171);
+}
+.formcontainer .btncontain button:hover{
+  background-color: rgb(197, 197, 197);
+  transition: ease-in-out 0.4s;
+  font-size: 18px ;
+  color: rgb(0, 0, 0); 
+}
+.none{
+  display: none;
+}
+/* .image{
+  background-image: url(money-icon-on-isolated-background-coins-illustration-in-flat-style-icons-for-design-website-simple-business-concept-pictogram-vector-removebg-preview.png);
+  height: 600px;
+  width: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 550px;
+  bottom: 10px;
+} */
+
+.formcontainer .nextForm .btncontain1 button{
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  border: none;
+  margin: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(255, 219, 171); 
+}
+.formcontainer .nextForm .btncontain1 .long{
+  border-radius: 10px;
+  width: 300px;
+  height: 80px;
+  border: none;
+  margin: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(255, 219, 171); 
+}
+.formcontainer .nextForm .btncontain1 .long1{
+  border-radius: 10px;
+  width: 300px;
+  height: 80px;
+  border: none;
+  margin: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(255, 219, 171);
+  position: relative;
+  top: -12px; 
+}
+.formcontainer .nextForm .btncontain1 .form:hover{
+  background-color: rgb(197, 197, 197);
+  transition: ease-in-out 0.4s;
+  font-size: 17.5px ;
+  color: rgb(0, 0, 0); 
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.content{
+  position: relative;
+  bottom: 0;  
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  gap: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.congratscontainer h2 {
+  font-size: 36px;
+  color: red;
+}
+.congratscontainer{
+  background: #000000;
+  flex-basis: 32%;
+  border-radius: 10px;
+  /* margin-bottom: 5%; */
+  padding: 46px 32px;
+  margin-top: 15%;
+  padding-top: 10px;
+  /* box-sizing: border-box; */
+  text-align: center;
+  box-shadow: 0 0 20px rgba(82, 82, 82, 0.6);
+}
+.congratscontainer p{
+ font-size: 21px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.congratscontainer button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: bisque;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  
+}
+.congratscontainer button:hover{
+ background-color: rgb(252, 197, 131);
+ transition: 1s;
+}
+.row{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navtext{
+      margin-bottom: 70px;
+      font-size: 52px;
+    }
+    section .sectext{
+      font-size: 27px;
+    }
+    section .sectext2{
+      font-size: 17px;
+    }
+    /* form{
+      margin-top: 40px;
+    } */
+    .button{
+      position: relative;
+      left: 0;
+    }
+    .formcontainer .nextForm .btncontain1 .long{
+      margin-top: -2px;
+    }
+    .btncontain1{
+      margin-top: -12px;
+      position: relative;
+      left: 6px;
+    } 
+    .row{
+      margin-top: 25%;
+    } 
+    .congratscontainer h2 {
+      font-size: 28px;
+    }    
+    .congratscontainer p{
+      font-size: 18px;
+    }                     
+}
+
+
